@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ben/ETNA/group-879754/win1_api/win1_api.csproj": {}
+  },
+  "projects": {
+    "/home/ben/ETNA/group-879754/win1_api/win1_api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ben/ETNA/group-879754/win1_api/win1_api.csproj",
+        "projectName": "win1_api",
+        "projectPath": "/home/ben/ETNA/group-879754/win1_api/win1_api.csproj",
+        "packagesPath": "/home/ben/.nuget/packages/",
+        "outputPath": "/home/ben/ETNA/group-879754/win1_api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ben/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Json.net": {
+              "target": "Package",
+              "version": "[1.0.33, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/133/sdk/3.1.411/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
